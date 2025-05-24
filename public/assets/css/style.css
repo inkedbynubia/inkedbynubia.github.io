@@ -1,0 +1,125 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #d40000;
+  margin: 0;
+  color: #FFF;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  margin: 0;
+}
+
+main {
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  max-width: 580px;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 16px;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.image-container {
+  border-radius: 50%;
+  padding: .5rem;
+  background-color: #ffffff;
+}
+
+.image-container > img {
+  max-width: 96px;
+}
+
+.company .title > p {
+  font-size: 20px;
+}
+.company .slogan > p {
+  font-size: 16px;
+}
+
+.social-media {
+  display: flex;
+  gap: .75rem;
+}
+
+.social-media a {
+  width: 24px;
+  height: 24px;
+}
+
+.social-media img {
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+  transition: filter 0.7s ease;
+  width: 36px;
+  height: 36px;
+}
+
+.social-media img:hover {
+  filter: invert(85%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(85%) contrast(100%);
+}
+
+.my-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  width: 100%;
+  cursor: pointer;
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  all: unset;
+
+  background-color: #ffffff;
+  color: #353535;
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  align-items: center;
+  height: 48px;
+  width: 100%;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+button img {
+  width: 24px;
+  height: 24px;
+}
+
